@@ -1,0 +1,36 @@
+#nav{height:50px ; width:100% ; margin-bottom: 30px;padding-left: 30px;display:flex; }
+#h1{text-align: left;}
+#navcont{border:1px solid black ; height:40px ; width:70% ;color:grey ; padding-top:10px  ; margin : 0px 10px 0px 10px }
+  
+#nav>button{ 
+       gap: 10px;
+       box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+       padding: 15px;
+   margin:7px}
+
+#image{ height:600px;width:80%;display:block;margin:auto; margin-bottom: 40px;}
+#container{ height:600px ;width:100% ; display:flex ; flex-wrap: wrap;padding-left:100px ; margin-bottom: 80px;}
+#container>div{border:1px solid black ; height:300px ;width:20% ; padding-left:40px}
+#container>div>img{height:100%;width:80%}
+
+#container2{ height:850px ;width:100% ; display:flex ; flex-wrap: wrap;padding-left:100px ; margin-bottom: 80px;padding-bottom: 50px;}
+#container2>div{border:1px solid black; height:300px ;width:20% ; padding-left:40px}
+#container2>div>img{height:70%;width:80%}
+
+#Bcont{height:400px ; width: 100% ; padding: 0px 40px 0px 40px ; border:1px solid ; display :flex;margin-bottom:100px}
+#Bcont>div{height:90% ; width: 24% ; flex-direction:row;padding-top:40px ;}
+.grey{background-color:rgb(187, 187, 187)}
+#greenbox{background-color: greenyellow;padding-left: 30px;border :1px solid black;}
+#greenbox button{background-color: black; color:white}
+
+#cont4{border:1px solid black; height:300px ; width :100% ;padding-right: 30px;display:grid;grid-template-rows: repeat(2,50%);grid-template-columns: repeat(5,17%);margin-bottom:60px}
+#cont4>div{font-size:25px ; padding:40px 0px 40px 0px ;}
+
+#cont5{ width:100% ; height:500px ;display: flex;margin-bottom: 40px; }
+#cont5>div{flex-direction: row; ; height:80% ;width:16% ;  font-size: 20px;padding-top: 70px;}
+
+#cont6{ height:500px ; width:100% ;display:flex ; background-color: aliceblue;border:1px solid black; }
+#cont6>div{flex-direction: row; width:50% ; height:100% ; }
+#ok{ margin:100px 100px;}
+#twoparent{display:grid;;grid-template-columns: repeat(2,200px);grid-column-gap:50px}
+.two{height:80% ;margin-top:50px  }
